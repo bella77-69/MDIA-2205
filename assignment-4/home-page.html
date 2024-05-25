@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Join Slapshot Fantasy Hockey Pool, where you can draft your dream team, manage your roster, and compete for the championship title. Explore our rules, sign up, and share your feedback!">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Slapshot Fantasy</title>
+</head>
+
+<body>
+    <main id="top">
+        <!--header-->
+        <header>
+            <img class="header-logo" src="./images/logo-4.png" alt="Slapshot Fantasy Hockey Pool Logo">
+        </header>
+        <!--navigation-->
+        <nav>
+            <ul>
+                <li><a href="#" id="current">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Teams</a></li>
+                <li><a href="#">Standings</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Content -->
+        <section class="about-section">
+            <h1>Join the Slapshot Fantasy Hockey Pool</h1>
+            <p>Welcome to the Slapshot Fantasy Hockey Pool! Our pool is dedicated to bringing together hockey enthusiasts from
+                around the world to compete in an exciting and strategic fantasy hockey experience. Join us to draft
+                your dream team, manage your roster, and vie for the championship title. Whether you're a seasoned
+                fantasy player or a newcomer, our pool offers a fun and engaging way to enhance your love for hockey.
+            </p>
+        </section>
+
+        <section>
+            <h2>Sign Up</h2>
+            <p>Sign up to participate in our exciting Fantasy Hockey Pool! Create your team, manage your roster, and
+                compete for the top spot.</p>
+            <div class="form-container">
+                <form action="sigup.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="favorite_team">Favorite Hockey Team:</label>
+                    <input type="text" id="favorite_team" name="favorite_team"><br><br>
+                    <label for="experience">Fantasy Hockey Experience:</label>
+                    <select id="experience" name="experience">
+                        <option value="beginner">Beginner</option>
+                        <option value="intermediate">Intermediate</option>
+                        <option value="advanced">Advanced</option>
+                        <option value="expert">Expert</option>
+                        <option value="none">None</option>
+                    </select><br><br>
+                    <input type="submit" value="Signup">
+                </form>
+            </div>
+        </section>
+
+        <section>
+            <h2>Rules</h2>
+            <p>Our Fantasy Hockey Pool follows a set of rules and guidelines to ensure a fair and competitive experience
+                for all participants. Please review the rules below before joining the pool:</p>
+            <ul class="rules-list">
+                <li>Each participant must create a team consisting of NHL players from various teams.</li>
+                <li>Participants must adhere to the salary cap limit when drafting their team.</li>
+                <li>Teams must be submitted before the deadline to be eligible for scoring.</li>
+                <li>Participants can make roster changes throughout the season based on player performance and
+                    availability.</li>
+                <li>Scoring is based on player statistics and performance in NHL games.</li>
+                <li>The participant with the highest total points at the end of the season will be declared the winner.
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Feedback</h2>
+            <p>We'd love to hear your feedback about Slapshot Fantasy! Please fill out the form below:</p>
+            <div class="form-container">
+                <form action="feedback.php" method="post">
+                    <label for="feedback_name">Name:</label>
+                    <input type="text" id="feedback_name" name="feedback_name" required><br><br>
+                    <label for="feedback_email">Email:</label>
+                    <input type="email" id="feedback_email" name="feedback_email" required><br><br>
+                    <label for="feedback_rating">Rating:</label><br>
+                    <label for="feedback_rating_1">
+                        <input type="radio" id="feedback_rating_1" name="feedback_rating" value="1"> 1
+                    </label>
+                    <label for="feedback_rating_2">
+                        <input type="radio" id="feedback_rating_2" name="feedback_rating" value="2"> 2
+                    </label>
+                    <label for="feedback_rating_3">
+                        <input type="radio" id="feedback_rating_3" name="feedback_rating" value="3"> 3
+                    </label><br><br>
+                    <label for="feedback_comments">Comments:</label><br>
+                    <textarea id="feedback_comments" name="feedback_comments" rows="4" required></textarea><br><br>
+                    <fieldset>
+                        <legend>Features You Like:</legend>
+                        <label for="feature_1">
+                            <input type="checkbox" id="feature_1" name="features[]" value="Feature 1"> Feature 1
+                        </label><br>
+                        <label for="feature_2">
+                            <input type="checkbox" id="feature_2" name="features[]" value="Feature 2"> Feature 2
+                        </label><br>
+                        <label for="feature_3">
+                            <input type="checkbox" id="feature_3" name="features[]" value="Feature 3"> Feature 3
+                        </label><br>
+                    </fieldset><br>
+                    <label for="feedback_age_group">Age Group:</label>
+                    <select id="feedback_age_group" name="feedback_age_group">
+                        <option value="under_18">Under 18</option>
+                        <option value="18_24">18-24</option>
+                        <option value="25_34">25-34</option>
+                        <option value="35_44">35-44</option>
+                        <option value="45_54">45-54</option>
+                        <option value="55_64">55-64</option>
+                        <option value="65_and_over">65 and Over</option>
+                    </select><br><br>
+                    <input type="submit" value="Submit Feedback">
+                </form>
+            </div>
+        </section>
+        <!-- footer -->
+        <footer>
+            <div class="footer-logo-container">
+                <img src="./images/logo-4.png" alt="Slapshot Fantasy Hockey Pool Logo" class="footer-logo">
+            </div>
+            <div class="footer-content">
+                <p>&copy; 2024 Fantasy Puck Zone. All rights reserved.</p>
+                <a href="#top">Back to Top</a>
+            </div>
+
+
+        </footer>
+    </main>
+</body>
+
+</html>

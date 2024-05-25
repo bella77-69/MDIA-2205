@@ -1,0 +1,253 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+    background-color: #e6e9ec;
+}
+
+/*  fixed width layout */
+main {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+/* headings */
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #202020;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #202020;
+}
+
+h3 {
+    font-size: 1.17em;
+    margin-bottom: 10px;
+    color: #202020;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #202020;
+}
+
+* images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* general links */
+a {
+    color: #635029;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #7c6433;
+    font-weight: 700;
+}
+
+/* header */
+header {
+    width: 960px;
+    color: #fff;
+    padding: 10px;
+    background-color: #001F3F;
+    overflow: hidden;
+}
+
+header h1 {
+    font-size: 2.25em;
+    margin-top: 30px;
+}
+
+/* nav */
+nav {
+    width: 250px;
+    float: left;
+    margin-right: 5%;
+    margin: 0;
+    padding: 20px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+}
+
+/* nav links */
+nav a {
+    display: block;
+    color: #fff;
+    background-color: #001F3F;
+    width: 100%;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+nav a:hover {
+    color: #202020;
+    background-color: #fcf391;
+}
+
+nav a#current {
+    color: #202020;
+    background-color: #FCF391;
+    text-decoration: none;
+}
+
+/* section */
+section {
+    width: 650px;
+    float: right;
+    margin-right: 5%;
+    padding: 20px;
+    background-color: #e6e9ec;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+/*about */
+.about-section {
+    padding: 20px;
+    background-color: #e6e9ec;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.about-section p {
+    text-align: center;
+    font-size: 1.1em;
+}
+/* form */
+.form-container {
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+input[type="submit"] {
+    width: auto;
+    padding: 10px 20px;
+    background-color: #001F3F;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  
+    background-color: #fcf391;
+    color: #202020;
+   
+}
+/*rules section */
+/* Style the section container */
+
+/* Style the list */
+.rules-list {
+    padding-left: 0;
+    margin-left: 16px;
+}
+
+/* Style list items */
+.rules-list li{
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 5px;
+}
+
+/*footer */
+footer {
+    clear: both;
+    background-color: #001F3F;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .footer-content {
+    display: inline-block;
+    text-align: left;
+    padding: 5px 0;
+}
+
+footer .footer-logo-container {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-logo {
+    float: right;
+    margin-right: 80px;
+    margin-bottom: 10px;
+    padding: 5px;
+} 
+
+footer p, footer a {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+footer a {
+    color: #fcf391;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    border: 1px solid #202020;
+    color: #ffffff;
+}
