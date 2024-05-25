@@ -120,11 +120,12 @@ nav a#current {
 section {
     width: 650px;
     float: right;
-    margin-right: 5%;
+    /* margin-right: 5%; */
     padding: 20px;
     background-color: #e6e9ec;
     border-radius: 15px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
+    margin: 20px 20px;
 }
 
 /*about */
