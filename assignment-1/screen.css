@@ -1,0 +1,171 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12pt;
+    line-height: 1.5;
+}
+
+/*  fixed width layout */
+#container {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #b9f3af;
+}
+
+h1 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    color: #020202
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+/* general link styles */
+a {
+    color: #020202;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+a.active {
+    color: #5c3f18;
+    font-weight: 700;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* images */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.float-left {
+    float: left;
+    margin: 4px 10px 10px 0;
+    padding: 4px;
+    border: 1px solid #5c3f18;
+}
+
+.float-right {
+    float: right;
+    margin: 10px 0 10px 10px;
+    padding: 4px;
+    border: 1px solid #5c3f18;
+}
+
+/* header */
+header {
+    color: #020202;
+    padding: 50px;
+    border-bottom: 1px solid #020202;
+}
+
+.header-wrapper {
+    padding-bottom: 1rem;
+}
+
+.header-img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+/* navigation */
+.nav {
+    color: #020202;
+    padding: 10px 0;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* main */
+.main {
+    padding: 10px;
+}
+
+.main-wrapper {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/*table*/
+caption {
+    font-size: 100%;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+col {
+    border-right: 1px solid #020202;
+}
+
+table {
+    border-collapse: collapse;
+    width: 650px;
+    border: 1px solid #020202;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #020202;
+}
+
+th {
+    background-color: #7edc80;
+    color: #020202;
+}
+
+tr:nth-child(even) {
+    background-color: #7edc80;
+}
+
+tr:hover {
+    background-color: #f2f2f2;
+}
+
+/* footer */
+footer {
+    color: #020202;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #020202;
+}

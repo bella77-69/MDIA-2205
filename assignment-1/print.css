@@ -1,0 +1,96 @@
+body {
+    margin: 0 auto;
+    background: none;
+    color: #020202;
+    font-size: 12pt;
+    width: 700px;
+}
+
+/* header, nav, & footer hide */
+header,
+.nav,
+footer {
+    display: none;
+}
+
+p {
+    padding: 0 50px 10px 20px;
+    margin: 0;
+    line-height: 130%;
+}
+
+/* container */
+#container {
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+#container::after {
+    content: "Copyright GreenHaven.com";
+    display: block;
+    text-align: center;
+}
+
+/* remove images */
+.float-left,
+.float-right,
+.float-center {
+    display: none;
+}
+
+/* links */
+a {
+    text-decoration: underline;
+}
+
+a:link {
+    color: #020202;
+}
+
+h1 {
+    font-size: 140%;
+    padding: 20px 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Main wrapper */
+.main-wrapper {
+    padding: 0 50px 10px 20px;
+    margin: 0;
+    line-height: 130%;
+}
+
+/* Lists */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 5px;
+}
+
+th {
+    color: #000;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: transparent;
+}

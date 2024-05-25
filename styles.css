@@ -1,0 +1,35 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 790px;
+    margin: 0 auto;
+}
+
+/* header */   
+header {
+    margin-top: 2rem;
+    padding: 20px;
+}
+/* Nav */
+nav {
+    color: #242424;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: #484848;
+    display: inline-block;
+    font-size: 1em;
+    padding: 14px;
+    text-decoration: none;
+}
+
