@@ -1,18 +1,19 @@
-# BCIT MDIA 2205 - Assignment 3
+# BCIT MDIA 2205
 
-![Project Logo](images/logo.png)
+## Assignment 1
+### HTML and CSS
 
-Assignment 3 for BCIT MDIA 2205.
+Create one HTML page designed as a one-column, fixed-width layout with a horizontal menu styled with two style sheets. One style sheet for your screen display and one style sheet for print (two CSS files).
 
-## Table of Contents
-- [Installation](#installation)
-- [License](#license)
+### Assignment 2
+### HTML and CSS
+Create two HTML pages designed as a two-column, fixed-width layout with a vertical menu styled with one external style sheet
 
-## Preview
+### Assignment 3
+In this assignment, I worked through the process of keyword research and design one search engine compatible Web page.
 
-Here's an example of what the application looks like:
-
-![Screenshot](home-page.png)
+### Assignment 4
+For this assignment, I used simple PHP code for form procesing.
 
 ## License
 
