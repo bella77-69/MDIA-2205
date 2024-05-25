@@ -1,0 +1,107 @@
+body {
+    margin: 0 auto;
+    background: none;
+    color: #020202;
+    font-size: 12pt;
+    line-height: 1.5;
+    background-color: #fff;
+
+    max-width: 100%;
+}
+
+/* header, navigation, & footer hide */
+nav,
+footer {
+    display: none;
+}
+
+/* main */
+main {
+    width: auto;
+    padding: 20px;
+}
+
+main::after {
+    content: "Copyright TechTrends.com";
+    display: block;
+    text-align: center;
+    margin-top: 8px;
+}
+
+/* headings */
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #020202;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #020202;
+    margin-bottom: 15px;
+}
+
+/* links */
+a {
+    color: #020202;
+    text-decoration: underline;
+}
+
+a:link {
+    color: #020202;
+}
+
+/* images */
+img {
+    display: none;
+}
+
+figcaption {
+    display: none;
+}
+
+/* lists */
+ul {
+    margin-left: 16px;
+    padding: 0;
+}
+
+/* table  */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    color: #020202;
+    border: 1px solid #020202;
+    padding: 5px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* footer */
+footer p {
+    color: #020202;
+}
+
+/* newsletter */
+@media print {
+    .newsletter-container {
+        page-break-before: always;
+    }
+
+    .print-page-break {
+        page-break-before: always;
+    }
+}

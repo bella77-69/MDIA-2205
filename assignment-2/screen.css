@@ -1,0 +1,313 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 12pt;
+    line-height: 1.5;
+    background-color: #dcdcf8;
+}
+
+/*  fixed width layout */
+main {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+/* headings */
+h1 {
+    font-size: 2.25em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.75em;
+    margin-bottom: 10px;
+    color: #42335e;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #42335e;
+}
+
+h4 {
+    font-size: 1em;
+    margin-bottom: 10px;
+    color: #42335e;
+}
+
+h5 {
+    font-size: 1em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #020202;
+}
+
+/* general links */
+a {
+    color: #3b339a;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #42335e;
+    font-weight: 700;
+}
+
+/* images */
+.header-logo {
+    float: left;
+    padding: 5px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding: 5px 5px 5px 0;
+}
+
+.float-right {
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.footer-image {
+    float: right;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+/* header */
+header {
+    width: 960px;
+    color: #fff;
+    padding: 10px;
+    background-color: #3b339a;
+    overflow: hidden;
+}
+
+header h1 {
+    font-size: 2.25em;
+    margin-top: 30px;
+}
+
+/* nav */
+nav {
+    width: 250px;
+    float: left;
+    margin-right: 5%;
+    margin: 0;
+    padding: 20px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+}
+
+/* nav links */
+nav a {
+    display: block;
+    color: #fff;
+    background-color: #3b339a;
+    width: 100%;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    color: #000;
+    background-color: #dcdcf8;
+}
+
+nav a#current {
+    color: #000;
+    background-color: #dcdcf8;
+    text-decoration: none;
+}
+
+/* section */
+section {
+    width: 650px;
+    float: right;
+    margin-right: 5%;
+    padding: 20px;
+}
+
+/*list */
+ul {
+    margin-bottom: 15px;
+    list-style: circle;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/*table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+th,
+td {
+    border: 1px solid #3b339a;
+    text-align: left;
+    padding: 5px;
+}
+
+th {
+    background-color: #dcdcf8;
+    color: #42335e;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #dcdcf8;
+}
+
+tbody tr:hover {
+    background-color: #3b339a;
+    color: #fff;
+}
+
+/* subsection */
+.subsection {
+    margin-top: 10px;
+    padding: 2px;
+}
+
+.subsection p {
+    margin-top: 15px;
+}
+
+figure {
+    margin: 0 auto;
+    padding: 5px;
+}
+
+figcaption {
+    color: #020202;
+    font-style: oblique;
+}
+
+/* article */
+article {
+    margin-top: 10px;
+    padding: 2px;
+}
+
+/* aside */
+aside {
+    float: right;
+    width: 50%;
+    padding: 13px;
+    background-color: #dcdcf8;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside li {
+    margin-bottom: 10px;
+}
+
+aside a {
+    text-decoration: none;
+    color: #020202;
+}
+
+aside a:hover {
+    color: #3b339a;
+}
+
+/* newsletter container */
+input {
+    padding: 10px;
+    width: 82%;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    border: 1px solid #3b339a;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3b339a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #020202;
+    background-color: #dcdcf8;
+}
+
+footer {
+    clear: both;
+    background-color: #3b339a;
+    padding: 20px;
+    color: #fff;
+}
+
+footer h2 {
+    color: #fff;
+}
+
+footer h4 {
+    color: #fff;
+}
+
+footer p {
+    color: #fff;
+}
+
+.footer-info {
+    margin-left: 20px;
+}
+
+footer a {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #dcdcf8;
+    color: #020202;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+footer a:hover {
+    color: #3b339a;
+    border: 1px solid #020202;
+    background-color: #fff;
+}
