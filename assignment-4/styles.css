@@ -17,6 +17,7 @@ main {
     margin: 0 auto;
     background-color: #fff;
 }
+
 /* headings */
 h1 {
     font-size: 2em;
@@ -32,7 +33,7 @@ h2 {
 
 h3 {
     font-size: 1.17em;
-    margin-bottom: 10px;
+    margin: 10px 0 10px 0;
     color: #202020;
 }
 
@@ -42,7 +43,7 @@ p {
     color: #202020;
 }
 
-* images */
+/* images */
 img {
     max-width: 100%;
     height: auto;
@@ -116,41 +117,66 @@ nav a#current {
     text-decoration: none;
 }
 
+/* aside */
+aside {
+    margin: 0;
+    padding: 20px;
+    width: 270px;
+    margin-right: 5%;
+    padding-top: 20.5rem;
+}
+
+.figure-img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+figcaption {
+    color: #020202;
+    font-style: oblique;
+}
+
 /* section */
 section {
     width: 650px;
     float: right;
-    /* margin-right: 5%; */
     padding: 20px;
     background-color: #e6e9ec;
     border-radius: 15px;
-    /* margin-top: 20px; */
     margin: 20px 20px;
 }
 
-/*about */
 .about-section {
     padding: 20px;
     background-color: #e6e9ec;
     border-radius: 15px;
     margin-top: 20px;
 }
+
 .about-section p {
     text-align: center;
     font-size: 1.1em;
 }
-/* form */
-.form-container {
-    background-color: #f9f9f9;
-    border-radius: 15px;
-    width: 80%;
-    margin: 20px auto;
+
+.create-section {
+    width: 900px;
     padding: 20px;
+    border-radius: 15px;
+    margin: 20px 20px;
+}
+
+/* form elements */
+.form-container {
+    background-color: #fcfcfc;
     box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.1);
+    width: 90%;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
 }
 
 label {
-    font-weight: bold;
     font-size: 16px;
 }
 
@@ -158,53 +184,72 @@ input[type="text"],
 input[type="email"],
 textarea,
 select {
+    border: 1px solid #d2d2d2;
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
+    margin-bottom: 20px;
     border-radius: 15px;
-}
-
-input[type="radio"],
-input[type="checkbox"] {
-    margin-right: 5px;
 }
 
 fieldset {
-    border: 1px solid #ccc;
-    border-radius: 15px;
+    border: 1px solid #d2d2d2;
     padding: 10px;
     margin-bottom: 10px;
-
+    border-radius: 15px;
 }
 
-input[type="submit"] {
-    width: auto;
-    padding: 10px 20px;
+legend {
+    color: #202020;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 0 10px;
+}
+
+.preferences {
+    border: 1px solid #d2d2d2;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.preferences input[type="checkbox"],
+.preferences input[type="radio"] {
+    margin: 0 10px 15px 0;
+}
+
+textarea {
+    border: 1px solid #d2d2d2;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+.submit {
     background-color: #001F3F;
     color: #fff;
+    width: auto;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
     border: none;
     border-radius: 15px;
-    cursor: pointer;
 }
 
-input[type="submit"]:hover {
-  
+.submit:hover {
     background-color: #fcf391;
     color: #202020;
-   
+    font-weight: 600;
 }
-/*rules section */
-/* Style the section container */
 
-/* Style the list */
+/* list */
 .rules-list {
     padding-left: 0;
     margin-left: 16px;
 }
 
-/* Style list items */
-.rules-list li{
-    font-size: 14px;
+.rules-list li {
+    font-size: 16px;
     color: #444;
     margin-bottom: 5px;
 }
@@ -234,9 +279,10 @@ footer .footer-logo-container {
     margin-right: 80px;
     margin-bottom: 10px;
     padding: 5px;
-} 
+}
 
-footer p, footer a {
+footer p,
+footer a {
     margin: 0;
     padding: 0;
     color: #fff;
@@ -250,5 +296,5 @@ footer a {
 footer a:hover {
     text-decoration: underline;
     border: 1px solid #202020;
-    color: #ffffff;
+    color: #fff;
 }

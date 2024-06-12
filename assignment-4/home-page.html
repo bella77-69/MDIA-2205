@@ -15,7 +15,7 @@
     <main id="top">
         <!--header-->
         <header>
-            <img class="header-logo" src="./images/logo-4.png" alt="Slapshot Fantasy Hockey Pool Logo">
+            <img class="header-logo" src="./images/logo.png" alt="Slapshot Fantasy Hockey Pool Logo">
         </header>
         <!--navigation-->
         <nav>
@@ -31,40 +31,11 @@
         <section class="about-section">
             <h1>Join the Slapshot Fantasy Hockey Pool</h1>
             <p>Welcome to the Slapshot Fantasy Hockey Pool! Our pool is dedicated to bringing together hockey
-                enthusiasts from
-                around the world to compete in an exciting and strategic fantasy hockey experience. Join us to draft
-                your dream team, manage your roster, and vie for the championship title. Whether you're a seasoned
-                fantasy player or a newcomer, our pool offers a fun and engaging way to enhance your love for hockey.
-            </p>
+                enthusiasts from around the world to compete in an exciting and strategic fantasy hockey experience.
+                Join us to draft your dream team, manage your roster, and vie for the championship title. Whether you're
+                a seasoned fantasy player or a newcomer, our pool offers a fun and engaging way to enhance your love for
+                hockey.</p>
         </section>
-
-        <section>
-            <h2>Sign Up</h2>
-            <p>Sign up to participate in our exciting Fantasy Hockey Pool! Create your team, manage your roster, and
-                compete for the top spot.</p>
-            <div class="form-container">
-                <form action="sigup.php" method="post">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required><br><br>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required><br><br>
-                    <label for="favorite_team">Favorite Hockey Team:</label>
-                    <input type="text" id="favorite_team" name="favorite_team"><br><br>
-                    <label for="experience">Fantasy Hockey Experience:</label>
-                    <select id="experience" name="experience">
-                        <option value="beginner">Beginner</option>
-                        <option value="intermediate">Intermediate</option>
-                        <option value="advanced">Advanced</option>
-                        <option value="expert">Expert</option>
-                        <option value="none">None</option>
-                    </select><br><br>
-                    <label for="username">Hockey Handle:</label>
-                    <input type="text" id="username" name="username" placeholder="E.g., PuckProdigy88" required><br><br>
-                    <input type="submit" value="Signup">
-                </form>
-            </div>
-        </section>
-
         <section>
             <h2>Rules</h2>
             <p>Our Fantasy Hockey Pool follows a set of rules and guidelines to ensure a fair and competitive experience
@@ -80,151 +51,125 @@
                 </li>
             </ul>
         </section>
-<section>
-    <h2>Build Your Line Up</h2>
-    <p>Create your fantasy hockey team by filling out the form below. Choose your favorite players, manage your roster, and compete for the championship title!</p>
-    <form action="submit_team.php" method="post">
-        <fieldset>
-            <legend>Team Information</legend>
-            <label for="team_name">Team Name:</label>
-            <input type="text" id="team_name" name="team_name" required><br><br>
-         
-        </fieldset>
-        
-        <fieldset>
-            <legend>Player Selection</legend>
-            <p>Select players for your team:</p>
-            
-            <h3>Forwards (Choose 3)</h3>
-            <label for="forward1">Forward 1:</label>
-            <input type="text" id="forward1" name="forward1" placeholder="E.g., Sidney Crosby" required ><br><br>
 
-            <label for="forward2">Forward 2:</label>
-            <input type="text" id="forward2" name="forward2" required><br><br>
-
-            <label for="forward3">Forward 3:</label>
-            <input type="text" id="forward3" name="forward3" required><br><br>
-          
-            
-            <h3>Defensemen (Choose 2)</h3>
-            <label for="defenseman1">Defensemen 1:</label>
-            <input type="text" id="defenseman1" name="defenseman1" required><br><br>
-
-            <label for="defenseman2">Defensemen 2:</label>
-            <input type="text" id="defenseman2" name="defenseman2" required><br><br>
-            
-            
-            <h3>Goalies (Choose 2)</h3>
-            <label for="goalie1">Goalie 1:</label>
-            <input type="text" id="goalie1" name="goalie1" required><br><br>
-
-            <label for="goalie2">Goalie 2:</label>
-            <input type="text" id="goalie2" name="goalie2" required><br><br>
-            
-               
-            <label for="captain">Select Captain:</label><br>
-            <select id="captain" name="captain" required>
-                <option value="">Select Captain</option>
-                <option value="player1">Forward 1</option>
-                <option value="player2">Forward 2</option>
-                <option value="player2">Forward 3</option>
-                <option value="player2">Defensemen 1</option>
-                <option value="player2">Defensemen 2</option>
-            </select><br><br>
-
-        </fieldset>
-        <fieldset>
-            <legend>Player Preferences</legend>
-            <h3>Preferred Player Attributes</h3>
-            <label for="skilled">Skilled Players:</label>
-            <input type="checkbox" id="skilled" name="skilled" value="skilled"><br>
-        
-            <label for="physical">Physical Players:</label>
-            <input type="checkbox" id="physical" name="physical" value="physical"><br>
-        
-            <label for="versatile">Versatile Players:</label>
-            <input type="checkbox" id="versatile" name="versatile" value="versatile"><br><br>
-        
-            <h3>Preferred Play Style</h3>
-            <label for="aggressive">Aggressive Play:</label>
-            <input type="radio" id="aggressive" name="play_style" value="aggressive"><br>
-        
-            <label for="defensive">Defensive Play:</label>
-            <input type="radio" id="defensive" name="play_style" value="defensive"><br>
-        
-            <label for="offensive">Offensive Play:</label>
-            <input type="radio" id="offensive" name="play_style" value="offensive"><br>
-        </fieldset>
-        <fieldset>
-            <legend>Top Stars</legend>
-            <label for="top_scorer">Top Scorer:</label><br>
-            <input type="text" id="top_scorer" name="top_scorer" placeholder="E.g., Sidney Crosby" required><br><br>
-            
-            <label for="top_assist">Top Assists:</label><br>
-            <input type="text" id="top_assist" name="top_assist" placeholder="E.g., Sidney Crosby" required><br><br>
-        </fieldset>
-        
-        <input type="submit" value="Create Team">
-    </form>
-</section>
-        <!-- <section>
-            <h2>Feedback</h2>
-            <p>We'd love to hear your feedback about Slapshot Fantasy! Please fill out the form below:</p>
-            <div class="form-container">
-                <form action="feedback.php" method="post">
-                    <label for="feedback_name">Name:</label>
-                    <input type="text" id="feedback_name" name="feedback_name" required><br><br>
-                    <label for="feedback_email">Email:</label>
-                    <input type="email" id="feedback_email" name="feedback_email" required><br><br>
-                    <label for="feedback_rating">Rating:</label><br>
-                    <label for="feedback_rating_1">
-                        <input type="radio" id="feedback_rating_1" name="feedback_rating" value="1"> 1
-                    </label>
-                    <label for="feedback_rating_2">
-                        <input type="radio" id="feedback_rating_2" name="feedback_rating" value="2"> 2
-                    </label>
-                    <label for="feedback_rating_3">
-                        <input type="radio" id="feedback_rating_3" name="feedback_rating" value="3"> 3
-                    </label><br><br>
-                    <label for="feedback_comments">Comments:</label><br>
-                    <textarea id="feedback_comments" name="feedback_comments" rows="4" required></textarea><br><br>
+        <section class="create-section">
+            <h2>Create Your Team</h2>
+            <p>Create your fantasy hockey team by filling out the form below. Choose your favorite players, manage your
+                roster, and compete for the championship title! Sign up to participate in our exciting Fantasy Hockey
+                Pool and aim for the top spot.</p>
+            <h3>Sign Up</h3>
+            <!--form-->
+            <form action="createTeam.php" method="post">
+                <div class="form-container">
+                    <!--label-->
+                    <label for="name">Name:</label>
+                    <!--required attribute-->
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <!--text box-->
+                    <input type="email" id="email" name="email" required>
+                    <label for="username">Hockey Handle:</label>
+                    <input type="text" id="username" name="username" placeholder="E.g., PuckProdigy88" required>
+                </div>
+                <h3>Create Team</h3>
+                <div class="form-container">
+                    <!--fieldset-->
                     <fieldset>
-                        <legend>Features You Like:</legend>
-                        <label for="feature_1">
-                            <input type="checkbox" id="feature_1" name="features[]" value="Feature 1"> Feature 1
-                        </label><br>
-                        <label for="feature_2">
-                            <input type="checkbox" id="feature_2" name="features[]" value="Feature 2"> Feature 2
-                        </label><br>
-                        <label for="feature_3">
-                            <input type="checkbox" id="feature_3" name="features[]" value="Feature 3"> Feature 3
-                        </label><br>
-                    </fieldset><br>
-                    <label for="feedback_age_group">Age Group:</label>
-                    <select id="feedback_age_group" name="feedback_age_group">
-                        <option value="under_18">Under 18</option>
-                        <option value="18_24">18-24</option>
-                        <option value="25_34">25-34</option>
-                        <option value="35_44">35-44</option>
-                        <option value="45_54">45-54</option>
-                        <option value="55_64">55-64</option>
-                        <option value="65_and_over">65 and Over</option>
-                    </select><br><br>
-                    <input type="submit" value="Submit Feedback">
-                </form>
-            </div>
-        </section> -->
+                        <!--legend-->
+                        <legend>Team Information</legend>
+                        <label for="team_name">Team Name:</label>
+                        <input type="text" id="team_name" name="team_name" required>
+                    </fieldset>
+                    <!--fieldset-->
+                    <fieldset>
+                        <!--legend-->
+                        <legend>Player Selection</legend>
+                        <h3>Forwards (Choose 4)</h3>
+                        <p>Select players for your team:</p>
+                        <label for="forward1">Forward 1:</label>
+                        <input type="text" id="forward1" name="forward1" placeholder="E.g., Sidney Crosby" required>
+                        <label for="forward2">Forward 2:</label>
+                        <input type="text" id="forward2" name="forward2" required>
+                        <label for="forward3">Forward 3:</label>
+                        <input type="text" id="forward3" name="forward3" required>
+                        <label for="forward4">Forward 4:</label>
+                        <input type="text" id="forward4" name="forward4" required>
+                        <h3>Defensemen (Choose 2)</h3>
+                        <label for="defenseman1">Defensemen 1:</label>
+                        <input type="text" id="defenseman1" name="defenseman1" required>
+                        <label for="defenseman2">Defensemen 2:</label>
+                        <input type="text" id="defenseman2" name="defenseman2" required>
+                        <h3>Goalies (Choose 2)</h3>
+                        <label for="goalie1">Goalie 1:</label>
+                        <input type="text" id="goalie1" name="goalie1" required>
+                        <label for="goalie2">Goalie 2:</label>
+                        <input type="text" id="goalie2" name="goalie2" required>
+                        <label for="captain">Select Captain:</label>
+                        <!--selection list-->
+                        <select name="captain" id="captain" required>
+                            <option value="">Select Captain</option>
+                            <option>Forward 1</option>
+                            <option>Forward 2</option>
+                            <option>Forward 3</option>
+                            <option>Forward 4</option>
+                            <option>Defensemen 1</option>
+                            <option>Defensemen 2</option>
+                        </select>
+
+                    </fieldset>
+                    <fieldset class="preferences">
+                        <legend>Player Preferences</legend>
+                        <h3>Preferred Player Attributes</h3>
+                        <label for="skilled">Skilled Players:</label>
+                        <!--checkbox-->
+                        <input type="checkbox" id="skilled" name="skilled" value="skilled">
+                        <label for="physical">Physical Players:</label>
+                        <input type="checkbox" id="physical" name="physical" value="physical">
+                        <label for="versatile">Versatile Players:</label>
+                        <input type="checkbox" id="versatile" name="versatile" value="versatile">
+                        <h3>Preferred Play Style</h3>
+                        <!--radio buttons-->
+                        <label for="aggressive">Aggressive Play:</label>
+                        <input type="radio" id="aggressive" name="play_style" value="aggressive">
+                        <label for="defensive">Defensive Play:</label>
+                        <input type="radio" id="defensive" name="play_style" value="defensive">
+                        <label for="offensive">Offensive Play:</label>
+                        <input type="radio" id="offensive" name="play_style" value="offensive">
+                    </fieldset>
+                    <fieldset>
+                        <legend>Additional Comments</legend>
+                        <label for="comments">Comments:</label>
+                        <!--text area-->
+                        <textarea id="comments" name="comments" rows="4" cols="50"
+                            placeholder="Enter any additional comments, player preferences, or feedback here..."></textarea>
+
+                    </fieldset>
+                    <input type="submit" value="Create Team" class="submit">
+                </div>
+            </form>
+        </section>
+
+        <!--aside-->
+        <aside>
+            <figure>
+                <img src="./images/hockeyPlayer.png" alt="Hockey player shooting puck" class="figure-img" width="250"
+                    height="175">
+                <figcaption>
+                    <p>Join the Slapshot Fantasy Hockey Pool today and experience the thrill of managing your own team.
+                        Sign up now to create your team and compete against other hockey fans for the championship
+                        title!
+                </figcaption>
+            </figure>
+        </aside>
         <!-- footer -->
         <footer>
             <div class="footer-logo-container">
-                <img src="./images/logo-4.png" alt="Slapshot Fantasy Hockey Pool Logo" class="footer-logo">
+                <img src="./images/logo.png" alt="Slapshot Fantasy Hockey Pool Logo" class="footer-logo">
             </div>
             <div class="footer-content">
                 <p>&copy; 2024 Fantasy Puck Zone. All rights reserved.</p>
                 <a href="#top">Back to Top</a>
             </div>
-
-
         </footer>
     </main>
 </body>
